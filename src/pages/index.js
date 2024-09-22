@@ -1,5 +1,6 @@
 import Head from "next/head";
 import EmailInput from "./email-input";
+import PasswordInput from "./password";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <div>
             <EmailInput />
+            <PasswordInput />
         </div>
       </main>
       
